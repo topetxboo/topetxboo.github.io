@@ -1,0 +1,57 @@
+.fade
+{
+        opacity:0.7;
+        transition:all 0.3s ease;
+}
+.fade:hover
+{
+        opacity:1;
+        transition:all 0.3s ease;
+}
+
+.grow
+{
+		transition:all 0.5s ease;
+        -webkit-transform: scale(1.0);
+        -ms-transform: scale(1.0);
+        transform: scale(1.0);
+}
+
+.grow:hover
+{
+		transition:all 0.5s ease;
+        -webkit-transform: scale(1.1);
+        -ms-transform: scale(1.1);
+        transform: scale(1.1);
+}
+
+
+.sliding-u-t-b {
+display: inline-block;
+}
+.sliding-u-t-b:after {
+content: '';
+display: block;
+height: 0;
+width: 100%;
+background: transparent;
+transition: height .5s ease, background-color .5s ease;
+}
+.sliding-u-t-b:hover:after {
+height: 2px;
+background: gray;
+opacity: 0.4;
+}
+
+
+body#blog_content {
+        background-image: url(../img/computer.jpg);
+        width : 100%;
+        height: 100%;
+}
+
+
+
+
+
+
